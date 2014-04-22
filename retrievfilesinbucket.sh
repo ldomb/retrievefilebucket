@@ -1,5 +1,6 @@
 #!/bin/bash
 # intial script written by Lian Sutton
+# https://groups.google.com/forum/#!topic/puppet-users/HenpMKLDZ4k
 
 if [ -z $1 ]
 
