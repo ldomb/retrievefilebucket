@@ -1,5 +1,5 @@
 #!/bin/bash
-#
+# intial script written by Lian Sutton
 
 if [ -z $1 ]
 
