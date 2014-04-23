@@ -11,6 +11,7 @@ if [ ${#@} == 0 ]; then
     echo "#                                                               #"
     echo "# Usage: `basename $0` file_to_look_for               #" 
     echo "# Example: `basename $0` /                            #"
+    echo "# Example: `basename $0` /etc/puppet/puppet.conf      #"
     echo "################################################################# ${reset}"
 else
     file=$1
