@@ -1,11 +1,10 @@
-retrievefilebucket
+Retrievefilefrombucket
 ==================
 
-This script can search the filesystem for files which were changed by puppet and shows you how you can restore them.
-
-
+This script can search the filesystem for files which were changed by puppet and shows how you can restore them.
+ ```
 Usage: 
-Example: `basename $0` file_to_look_for
+Example: basename $0 file
 Example: `basename $0` path
 # retrievfilesfrombucket.sh /
 Searching for local backups of file / (this may take some time)...
@@ -20,4 +19,4 @@ Backup(s) were found!
 
  * To restore the file, issue this command:
  puppet filebucket restore -b /var/lib/puppet/clientbucket /path/to/new/file <md5sum>
-
+```
